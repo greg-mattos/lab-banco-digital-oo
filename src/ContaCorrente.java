@@ -10,5 +10,11 @@ public class ContaCorrente extends Conta {
 		System.out.println("=== Extrato Conta Corrente ===");
 		super.imprimirInfosComuns();
 	}
+
+	@Override
+	protected void adicionarJuros() {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'adicionarJuros'");
+	}
 	
 }
